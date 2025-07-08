@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(31, 30, 30);
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    font-weight: bold;
+}
+
+nav {
+    padding: 0px 50px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 2px;
+}
